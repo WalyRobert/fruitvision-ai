@@ -40,3 +40,8 @@ npm run build
 Os testes validam contratos, modo demo, arquivos, origem, encaminhamento autenticado e download. Não usam serviço de IA pago ou pesos reais. O gateway escuta apenas loopback; para acesso público, implemente autenticação de usuários, limites de recursos e proxy TLS. `FRUITVISION_BACKEND_URL` é configuração confiável do administrador, nunca entrada da interface; redirecionamentos são recusados.
 
 Autor: Waly Robert. As dependências possuem licenças próprias; este repositório não concede licença adicional automaticamente.
+
+
+## Início e diagnóstico simplificados
+
+Após `npm ci`, execute `npm run diagnostico` para verificar Node, dependências, build e presença de configuração sem revelar chaves ou consumir cota. Execute `npm run iniciar` para compilar a versão atual e abrir o servidor local em um único terminal. A faixa de estado da interface distingue configuração ausente e integração ainda não comprovada. Encontrar uma chave não confirma que ela é válida nem que existe cota gratuita. Nenhum teste de geração é iniciado automaticamente.
