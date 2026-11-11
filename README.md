@@ -1,5 +1,7 @@
 # FruitVision — interface integrada
 
+![FruitVision — visão computacional para detecção de frutas](fruitvision-banner.jpg)
+
 Interface React/TypeScript para o [FruitVision Backend YOLO11](https://github.com/WalyRobert/FruitVision-Backend-YOLO11). Envia imagens e vídeos somente após ação do usuário, desenha caixas/polígonos retornados e baixa o MP4 processado. A chave do backend fica no gateway Node, fora do JavaScript público.
 
 ## Executar
@@ -45,3 +47,4 @@ Autor: Waly Robert. As dependências possuem licenças próprias; este repositó
 ## Início e diagnóstico simplificados
 
 Após `npm ci`, execute `npm run diagnostico` para verificar Node, dependências, build e presença de configuração sem revelar chaves ou consumir cota. Execute `npm run iniciar` para compilar a versão atual e abrir o servidor local em um único terminal. A faixa de estado da interface distingue configuração ausente e integração ainda não comprovada. Encontrar uma chave não confirma que ela é válida nem que existe cota gratuita. Nenhum teste de geração é iniciado automaticamente.
+
